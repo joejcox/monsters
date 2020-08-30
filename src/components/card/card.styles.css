@@ -1,0 +1,24 @@
+.cards__container--card {
+  transition: 0.2s ease;
+  text-align: center;
+  padding: 1rem;
+  background: orange;
+  color: white;
+}
+
+.cards__container--card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.cards__container--card h2 {
+  font-size: 1.2rem;
+}
+
+.card--info h2 {
+  margin-bottom: 0.5rem;
+}
+
+.card--info h5 {
+  margin-top: 0;
+}

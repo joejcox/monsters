@@ -1,0 +1,7 @@
+.cards__container {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: max-content;
+  gap: 1rem 1rem;
+}
